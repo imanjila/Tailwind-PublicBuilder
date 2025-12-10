@@ -70,8 +70,7 @@ const About = () => {
 
           <button
             className="bg-black text-white px-8 py-2 rounded cursor-pointer"
-            onClick={() => setShowMore(!showMore)}
-          >
+            onClick={() => setShowMore(!showMore)}>
             {showMore ? "Show Less" : "Learn more"}
           </button>
         </div>

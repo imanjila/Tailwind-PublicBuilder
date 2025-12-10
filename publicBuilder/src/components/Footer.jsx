@@ -29,7 +29,7 @@ const Footer = () => {
             ].map((item, index) => (
               <li
                 key={index}
-                className="relative inline-block pb-1 group cursor-pointer"
+                className="relative block pb-1 group cursor-pointer"
               >
                 <a href={item.link} className="text-white group-hover:text-[#f18930] transition">
                   {item.name}
